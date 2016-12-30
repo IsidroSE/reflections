@@ -18,3 +18,9 @@ it offers?
 	when you see this repository in the explorer and
 	the repository is all the git metadata saved from
 	this directory, including all commits.
+
+How can you use the staging area to make sure you have 
+one commit per logical change?
+
+	You use the staging area to prepare all changes
+	that you want to make in the same commit.

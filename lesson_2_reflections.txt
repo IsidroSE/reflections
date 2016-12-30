@@ -34,3 +34,4 @@ in keeping your history organized? How would branches help?
 	project with a second language, it's an option to
 	create a new branch and do the changes there without
 	changing the entire project.
+	

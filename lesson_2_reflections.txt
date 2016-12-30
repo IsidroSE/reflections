@@ -24,3 +24,13 @@ one commit per logical change?
 
 	You use the staging area to prepare all changes
 	that you want to make in the same commit.
+
+What are some situations when branches would be helpful 
+in keeping your history organized? How would branches help?
+
+	Branches are helpful for situations like when you want
+	to create a new mode of your game like an easier mode
+	for begginners or when you want to implement your
+	project with a second language, it's an option to
+	create a new branch and do the changes there without
+	changing the entire project.

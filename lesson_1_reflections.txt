@@ -30,10 +30,10 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 - How can you use the commands git log and git diff to view the history of files?
 
-    *git log -> it shows you all the commits that has been made since the
+    * git log -> it shows you all the commits that has been made since the
     project was first created.
 
-    *git diff ID_1 ID_2 -> compares 2 commits, it shows how many lines were
+    * git diff ID_1 ID_2 -> compares 2 commits, it shows how many lines were
     deleted, how many files were added and the lines that changed from one
     commit to another.
 
@@ -47,3 +47,16 @@ could break something?
 - Now that you have your workspace set up, what do you want to try using Git for?
 
     Learning Git!
+
+Commands:
+
+	* q -> exit git log!
+	* git log -> List all commits that were created since you created the branch 
+	you are on (and only shows the reachables commits in yhat branch).
+	* git log --stat -> Show addition information about commits.
+	* git status -> Show which files have changed since last commit (if there are).
+	* git diff id_1 id_2 -> Compare 2 commits.
+	* git clone -> Create a local copy or clone from the repository.
+	* git config --global color.ui auto -> Get a colored diff ouput
+	* git checkout commit_id -> Shows a previous version of the project.
+	* git checkout -> return to the last commit of your project.

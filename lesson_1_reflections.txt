@@ -1,26 +1,49 @@
-How did viewing a diff between two versions of a file help you see the bug that
+- How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    You can compare your actual file and the same file from yesterday to see
-    the differences, so you can know what lines were changed and where the
-    bug is.
+    You can compare your actual file and the same file from yesterday (for 
+    example) to see the differences, so you don't need to look all lines but 
+    only those which diff from one file to another.
 
-How could having easy access to the entire history of a file make you a more
+- How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
     You will have several copies of your file, so you will always can go back
     to a point where the bug was originated and it also is a security option
     in case that you lose your file.
 
-Why do you think some version control systems, like Git, allow saving multiple
+- What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    By committing manually instead of automatically, you can decide what to commit 
+    and when. This gives the opportunity to split the commits based on functionality.
+	By committing manually you can specify commit messages describing what has changed, 
+	instead of only showing an auto commit.
+
+- Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Git was created for developers, others like Google Docs no.
+    Git was created for developers, others like Google Docs was created for casual
+    people. Programming affects all project as one unit (which is separeted into 
+    smaller pieces/files), because of this git allow saving multiple files in one commit.
 
-How can you use the commands git log and git diff to view the history of files?
+- How can you use the commands git log and git diff to view the history of files?
 
-    -git log -> it shows you all the commits that has been made since the
+    *git log -> it shows you all the commits that has been made since the
     project was first created.
 
-    -git diff ID_1 ID_2 -> compares 2 commits, it shows how many lines were
-    deleted and how many files were added to the file.
+    *git diff ID_1 ID_2 -> compares 2 commits, it shows how many lines were
+    deleted, how many files were added and the lines that changed from one
+    commit to another.
+
+- How might using version control make you more confident to make changes that
+could break something?
+
+    Knowing that it is relatively easy to revert to previous versions of the project, 
+    one can have greater confidence without fearing of breaking the entire project 
+    completely – that is, not being able to revert back to an earlier working version.
+
+- Now that you have your workspace set up, what do you want to try using Git for?
+
+    Learning Git!

@@ -12,12 +12,6 @@ efficient programmer in the long term?
     to a point where the bug was originated and it also is a security option
     in case that you lose your file.
 
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
-docs does?
-
-    Fill in your answer here
-
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
@@ -30,12 +24,3 @@ How can you use the commands git log and git diff to view the history of files?
 
     -git diff ID_1 ID_2 -> compares 2 commits, it shows how many lines were
     deleted and how many files were added to the file.
-
-How might using version control make you more confident to make changes that
-could break something?
-
-    Fill in your answer here
-
-Now that you have your workspace set up, what do you want to try using Git for?
-
-    Fill in your answer here
